@@ -1,0 +1,4 @@
+rustup target add wasm32-unknown-unknown --toolchain nightly
+cargo +nightly build --target wasm32-unknown-unknown
+cargo install wasm-bindgen-cli
+wasm-bindgen target/wasm32-unknown-unknown/debug/wasm_hgc.wasm --out-dir .
