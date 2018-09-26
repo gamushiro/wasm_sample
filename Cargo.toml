@@ -1,5 +1,5 @@
 [package]
-name = "wasm-hgc"
+name = "js-hello-world"
 version = "0.1.0"
 authors = ["Your Name <you@example.com>"]
 
